@@ -1,2 +1,3 @@
 ### Hexlet tests and linter status:
+[![coverage](https://github.com/Alexander-Zaychenko/python-project-50/actions/workflows/test.yml/badge.svg)](https://github.com/Alexander-Zaychenko/python-project-50/actions/workflows/test.yml)
 [![Actions Status](https://github.com/Alexander-Zaychenko/python-project-50/workflows/hexlet-check/badge.svg)](https://github.com/Alexander-Zaychenko/python-project-50/actions)
