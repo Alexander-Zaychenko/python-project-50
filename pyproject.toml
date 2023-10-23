@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Alexander-Zaychenko <alexzay2012@yandex.ru>"]
 readme = "README.md"
+packages = [{include = "gendiff"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -13,3 +14,6 @@ argparse = "^1.4.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gendiff = "gendiff.scripts.gendiff:main"
